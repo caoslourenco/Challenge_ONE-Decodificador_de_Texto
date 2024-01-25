@@ -1,4 +1,91 @@
 <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Decodificador de texto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Style -->
+    <link href="./style.css" rel="stylesheet">
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="./assets/otter_space (2).png" alt="Logo da Alura">
+    </header>
+
+    <main>
+        <!-- Seção principal do conteúdo -->
+        <section>
+            <!-- Entrada de texto -->
+            <textarea name="" id="input" class="text-area" cols="10" rows="10" placeholder="Digite seu texto aqui"></textarea>
+            
+            <!-- Informações sobre o formato do texto -->
+            <div>
+                <div class="info">
+                    <span class="info--icon">🛈</span>
+                    <span>Apenas letras minúsculas e sem acentos.</span>
+                </div>
+
+                <!-- Botões de ação -->
+                <div id="buttons">
+                    <button id="cripto">Criptografar</button>
+                    <button id="descripto">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de saída de texto -->
+        <aside>
+            <!-- Mensagem quando nenhum texto está disponível -->
+            <div id="no-message" class="no-message">
+                <img src="./assets/otter_space (1).png" alt="Imagem da Lontra Dev">
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <!-- Mensagem de saída -->
+            <div id="message">
+                <textarea readonly id="output"></textarea>
+                <button id="copiar">Copiar</button>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p> From Otter Space </p>
+    </footer>
+
+    <!-- Script -->
+    <script src="./script.js" async></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="pb-br">
     <head>
         <title>Decodificador de texto</title>
@@ -52,4 +139,4 @@
 
     </script>
     </body>
-</html>
+</html> -->

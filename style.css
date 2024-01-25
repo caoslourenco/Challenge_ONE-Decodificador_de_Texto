@@ -42,15 +42,17 @@ main section #input {
   padding: 25px;
 }
 
+/* Adicione estas regras ao seu arquivo style.css */
 main section #input {
   font-weight: 400;
   font-size: 32px;
   color: #0a3871;
   background-color: transparent;
   resize: none;
-  border: none;
+  border: 1px solid #0a3871; /* Adicione uma borda azul de 1 pixel à caixa de texto por padrão */
   height: 100%;
   padding: 25px;
+  border-radius: 32px; /* Adicionei a borda-radius também aqui para manter consistência com a regra :focus */
 }
 
 main section #input:focus {
@@ -59,6 +61,7 @@ main section #input:focus {
   border: 1px solid #0a3871;
   border-radius: 32px;
 }
+
 
 main section .info {
   display: flex;
